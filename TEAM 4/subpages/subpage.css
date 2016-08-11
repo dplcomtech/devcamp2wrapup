@@ -1,0 +1,55 @@
+.top2 {
+  text-align:center;
+}
+.colorbar {
+  height:5px;
+  width:100%;
+  top:0;
+}
+.header {
+  position:fixed;
+  width:100%;
+  background-color:#fff;
+  top:0;
+  left:0;
+  text-align:center;
+  z-index: 888888;
+}
+.center {
+  text-align:center;
+  margin-top: 160px;
+}
+.event {
+  box-sizing:border-box;
+  padding:0;
+  width:33%;
+  float: left;
+}
+h1,h2 {
+  font-family: 'Biryani', sans-serif;
+  margin-top:20px;
+  margin-bottom:7px;
+  position:relative;
+}
+p {
+  font-family: 'Biryani', sans-serif;
+}
+img {
+  margin-top:10px;
+}
+.logo {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:99999;
+}
+.social-links {
+  
+  margin: 0 auto;
+  margin-top: 160px;
+  width: 200px;
+}
+.social-link img {
+  width: 100px;
+  float:left;
+}

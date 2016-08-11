@@ -1,0 +1,33 @@
+body {
+  background-color: #69DB77;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+}
+
+p {
+  text-align: justify;
+}
+
+.about {
+  width: 40%;
+  background-color: whitesmoke;
+  padding: 1em;
+  margin: 1em auto;
+  border-radius: 1em 5em 3em 4em;
+  box-shadow: 1em 1em 5em gold;
+}
+a:hover{color: #00ffff;
+  transition: all 0.7s;
+}
+a{color: #0000ff;}
+a:active{color: #ff0000;}
+nav ul a{width: 21.8%;
+  padding: 1.65em;
+  text-align: center;
+background-color: gold;
+float: left;}

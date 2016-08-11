@@ -1,0 +1,140 @@
+@keyframes fade {
+0% {
+  color: rgba(255,255,255,1);
+}
+100% {
+  color: rgba(255,255,255,0);
+}
+}
+
+@keyframes grow {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+.grow {
+  animation: fade 1s;
+  animation-timing-function:ease-in;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.square {
+  height:200px;
+  width:200px;
+  display:inline-block;
+  font-size: 2em;
+  margin-bottom:-5px;
+  margin-right:-4px;
+  box-sizing: border-box;
+  padding-top:70px;
+  color: rgba(0,0,0,0);
+  transition: color 1s;
+  animation: fade 1s;
+  animation-timing-function:ease-in;
+}
+.square:hover {
+  transition: all 0.6s;
+  color:#FFF;
+}
+.blue {
+background-color: #00a7e1;
+text-align: center;
+text-decoration: none;
+}
+.purple {
+background-color: #7774b6;
+text-align: center;
+text-decoration: none;
+}
+.pink {
+background-color: #eb1676;
+text-align: center;
+text-decoration: none;
+}
+.yellow {
+background-color: #ffe70c;
+text-align: center;
+text-decoration: none;
+}
+.orange {
+background-color: #f68d29;
+text-align: center;
+text-decoration: none;
+}
+.green {
+background-color: #6ebf4b;
+text-align: center;
+text-decoration: none;
+}
+.logonav {
+  width: 616px;
+  height: 600px;
+  padding:0;
+  margin:auto;
+}
+.unseen {
+  visibility:hidden;
+  height:10px;
+  width:196px;
+  display:inline-block;
+  margin-top:1px;
+}
+
+.toppage {
+  text-align: center;
+}
+
+.blue:hover {
+    background-color: #00BDFF;
+    transition: all 0.4s;
+}
+.purple:hover {
+    background-color: #9894E0;
+    transition: all 0.4s;
+}
+.pink:hover {
+    background-color: #FF54A1;
+    transition: all 0.4s;
+}
+.yellow:hover {
+    background-color: #FFEB40;
+    transition: all 0.4s;
+}
+.orange:hover {
+    background-color: #FFAD5E;
+    transition: all 0.4s;
+}
+.green:hover {
+    background-color: #7BD654;
+    transition: all 0.4s;
+}
+div.spacer{
+    font-size: 0;
+    height: 25px;
+    line-height: 0;
+}
+.link{
+  font-size: 2em
+
+}
+a{
+  text-decoration: none;
+  font-family: 'Biryani', sans-serif;
+}
+h1{
+  font-size:60px;
+  font-family: 'Biryani', sans-serif;
+  text-align: center;
+}
+h2{
+  font-size:40px;
+  font-family: 'Biryani', sans-serif;
+  text-align: center;
+}

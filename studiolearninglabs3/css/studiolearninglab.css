@@ -1,0 +1,142 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+*,*:before,*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,body,main {
+  height: 100%;
+}
+main {
+  background-image:url(http://cdn1.editmysite.com/uploads/8/0/3/4/80344312/background-images/2026173221.jpg);
+  background-size: cover;
+  min-height: 600px;
+}
+header {
+    padding: 1em;
+}
+.logo {
+  text-transform: uppercase;
+  font-family: 'Poiret One', sans;
+  background: url(http://studiolearninglabs.org/uploads/8/0/3/4/80344312/1465259808.png) no-repeat;
+  background-size: 50px 50px;
+  height: 65px;
+  padding-left:75px;
+}
+
+.socialmedia {
+  display: block;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.color_supportus {
+  background-color: #6ebf4b;
+  opacity:.65;
+}
+.page {
+    opacity: 1 !important;
+    padding: 20px;
+}
+.color_about {
+  background-color: #03A7E1;
+  opacity:.65;
+}
+.color_events {
+  background-color:#F68D29;
+  opacity:.65;
+}
+.color_videos {
+  background-color:#EB1676;
+  opacity:.65;
+
+}
+.color_podcast {
+  background-color:#7774B6;
+  opacity:.65;
+}
+.color_resources {
+  background-color:#FFE70C;
+  opacity:.65;
+}
+#minimize{
+  background-color:rgba(255,255,255,0);
+  border-color:rgba(255,255,255,0);
+  position:absolute;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  top:15px;
+}
+#minimize:hover,#minimize:focus{
+  outline:dashed 1px gray;
+}
+.pyramid {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  max-width:450px;
+  height: 450px;
+}
+
+
+.pyramid_item {
+  position: relative;
+  bottom: 0px;
+  display: block;
+  text-align: center;
+  float: left;
+  width: 150px;
+  height: 150px;
+  color: white;
+  padding-top: 40px;
+}
+.pyramid_item a { color: white; text-decoration:none;}
+.pyramid_item:hover{opacity:1; }
+.blank {
+  border: none;
+}
+
+
+.mission {
+  border: 0px solid #454545;
+  position: absolute;
+  top: 150px;
+  right:35%;
+  width:50%;
+  background-color:rgba(255,255,255,.5);
+    padding:35px;
+}
+.mission_title {
+  text-align: center;
+}
+.mission_text {
+  font-size: 20px;
+  //font-weight: normal;
+  border:0;
+}
+.copywrite {
+  font-size: 10px;
+}
+
+
+
+
+.lnr {
+
+  display:block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+  font-size: 50px;
+  text-align:center;
+  margin:0 auto;
+}
+.lnr-history {color: #fff;}
+.lnr-earth {color: #fff;}
+.lnr-volume-high {color: #fff;}
+.lnr-film-play {color: #fff;}
+.lnr-pencil {color: #fff;}
+.lnr-heart {color: #fff; }
