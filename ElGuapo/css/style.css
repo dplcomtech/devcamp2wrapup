@@ -1,0 +1,48 @@
+.page {
+  width: 960px;
+  margin: 6 auto;
+}
+
+h1,p {
+  margin: 30px;
+  background-color: #ffffff;
+  border: none;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.contact-form {
+  margin: 30px;
+  background-color: #ffffff;
+  border: none;
+  opacity: 0.6;
+  filter: alpha(opacity=60)
+}
+
+.navigation {
+  list-style: none;
+  }
+
+.navigation li {
+  display: inline-block;
+  background-color: grey;
+  border: 1px grey;
+  border-radius: 30px;
+}
+
+.navigation a {
+  color: #fff;
+}
+
+.navigation a:visited {
+  color: #fff;
+}
+
+.left {
+  margin-right: 160px;
+}
+
+.centered {
+  display: block;
+  margin: 0 auto;
+}

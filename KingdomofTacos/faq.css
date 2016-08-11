@@ -1,0 +1,19 @@
+#mark {
+  display: block;
+    margin: 0 auto;
+}
+#hi {
+ color: #008B8B;
+}
+#net {
+  width:120px;
+  position:center;
+}
+p {font-family: 'Slabo 27px', serif;
+text-align:center;
+  font-weight:bold;
+  font-size:20px;
+}
+h1,h2,h3{font-family: 'Raleway', sans-serif;
+  text-align:center;
+}

@@ -1,0 +1,129 @@
+body {
+  background: url("myslide/kidsinaclassrom.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+@keyframes colorchange {
+  16.7% {background: #F78C2A}
+  33.4% {background: #01A7E1}
+  50.1% {background: #FFE70B}
+  66.8% {background: #EC1676}
+  83.5% {background: #7674B5}
+  100% {background: #6FBF4C}
+}
+@keyframes coloreffect {
+  16.7% {color: #F78C2A}
+  33.4% {color: #01A7E1}
+  50.1% {color: #FFE70B}
+  66.8% {color: #EC1676}
+  83.5% {color: #7674B5}
+  100% {color: #6FBF4C}
+}
+
+div.boxes {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.container {
+  clear: both;
+  margin: 0 auto;
+  width:300px;
+  height:300px;
+  display: block ;
+}
+
+.slideShowImages {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+#box1, #box2, #box4 {
+  /*background: white;*/
+  color: black;
+  opacity: 0;
+}
+
+#box3 {
+  animation: colorchange 6s infinite;
+  animation-delay:1s;
+  background: #6FBF4C;
+
+}
+
+#box5 {
+  animation: colorchange 6s infinite;
+  animation-delay: 2s;
+  background: #F78C2A;
+}
+#box6 {
+  animation: colorchange 6s infinite;
+  animation-delay: 3s;
+  background: #01A7E1;
+}
+#box7 {
+  animation: colorchange 6s infinite;
+  animation-delay: 4s;
+  background: #FFE70B;
+}
+#box8 {
+  animation: colorchange 6s infinite;
+  animation-delay: 5s;
+  background: #EC1676;
+}
+#box9 {
+  animation: colorchange 6s infinite;
+  animation-delay: 6s;
+  background: #7674B5;
+}
+div.boxes {
+  text-align: center;
+}
+div.boxes a {
+  text-decoration: none;
+  color: black;
+ line-height: 100px;
+}
+div.boxes a:hover {
+  background-color: black;
+  animation: coloreffect 6s infinite;
+  display: block;
+  transition: background 1s;
+}
+#slideShowImages {
+  border: 1px gray solid;
+    background-color: lightgray;
+    margin: 0 auto;
+ }
+#slideShowImages img {
+  border: 0.8em black solid;
+    padding: 3px;
+}
+  #banner {
+    width:100%;
+    margin-bottom:50px;
+}
+
+.slides_container {
+    width:100%;
+    height:500px;
+}
+
+.slides_container div {
+    width:100px;
+    height:500px;
+    horizontal-align: center;
+    margin: 0 auto;
+    width: 40%;
+}
+div a {
+  text-decoration: none;
+  color: black;
+}
