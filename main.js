@@ -1,8 +1,11 @@
-$(document).ready(function(){
-  $('nav').slideUp('0');
-  $('header').hover(function(){
-      $('nav').slideDown('100', 'linear');
-    }, function () {
-      $('nav').slideUp('100', 'linear');
-  });
+$(document).ready(function () {
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top,
+        }, 1500);
+    }
+});
 });
