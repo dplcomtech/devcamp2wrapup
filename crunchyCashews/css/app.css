@@ -1,0 +1,45 @@
+#bio{
+  padding-top:10%;
+  padding-bottom:10%;
+  background-image: url("../img/background.jpg");
+  background-position:center center;
+  background-size: cover;
+  color: #ff1493;
+
+}
+.square-img{
+  padding-bottom: 60%;
+  background-color: green;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 1.1rem;
+}
+#photos{
+  background-image: url("../img/background2.jpg");
+  background-position:center center;
+  background-size: cover;
+  padding-top:10%;
+  padding-bottom:10%;
+  color: #ff1493;
+}
+#videos{
+background-image: url("../img/background3.jpg");
+  background-position:center center;
+  background-size: cover;
+  padding-top:10%;
+  padding-bottom:10%;
+  color: #ff1493;
+}
+
+#contact{
+  padding-top:10%;
+  padding-bottom:10%;
+  background-image: url("../img/accord.jpg");
+  background-position:center center;
+  background-size: cover;
+  color: #ff1493;
+}
+
+#contact label{
+  color: #871f78;
+}
