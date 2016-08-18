@@ -1,0 +1,20 @@
+.boxes {
+height: 80%;
+width:90%;
+border:2px solid #444;
+padding: 3% 3% 3% 3%;	
+}
+.color{
+background-color: #a08060;
+}
+.active {
+background-color: #999999;
+}
+body {
+	background-color: #816141;
+	font-size: 14px;
+}
+p {
+	font-size: 1.5em;
+	color:black;
+}

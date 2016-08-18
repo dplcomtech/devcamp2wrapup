@@ -1,0 +1,235 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Muli;
+  font-size: 4em;
+  padding: 2em 0 0 0;
+  text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.36);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Muli;
+  font-size: 2em;
+  padding: 1em 0 10px 0;
+  text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.36);
+}
+
+html {
+  overflow-y: scroll;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  font-family: Muli;
+  font-size: 2.5em;
+  padding: 10px 0 0 0;
+}
+
+h4 {
+  color: black;
+  text-align: center;
+  font-family: Muli;
+  font-size: 28px;
+  padding: -20px;
+}
+
+li {
+  font-size: 18px;
+  color: #9f9f9f;
+  padding: 0 1em 0 1em;
+  font-family: Open Sans;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 auto;
+  vertical-align: center;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  font-family: Open Sans;
+  padding: 1% 10%;
+  background-position: top center;
+  text-align: center;
+}
+
+br {
+  font-size: 20px;
+  color: black;
+  font-family: Open Sans;
+  padding: 1% 10%;
+  background-position: top center;
+  text-align: center;
+}
+
+nav ul li {
+  font-family: Raleway;
+  box-sizing: border-box;
+  font-weight: 900;
+  width: 16.66666666666667%;
+  float: left;
+  text-align: center;
+  background-color: #4a82b5;
+  padding: 15px;
+  transition: all 0.3s;
+  border-radius: 0%;
+  text-transform: uppercase;
+  letter-spacing: none;
+  color: white;
+  font-size: 20px
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #50aed9;
+  transition: all 0.3s;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+form {
+  margin: auto;
+  position: relative;
+  width: 22%;
+  height: 22%;
+  font-family: Open Sans;
+  font-size: 16px;
+  color: #4a82b5;
+  padding: 10px;
+  border: inset 1px solid #333;
+}
+
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+textarea#message {
+  width: 371px;
+  height: 150px;
+  display: block;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+submit {
+  width: 50px;
+  position: absolute;
+  background: #c9c9c9;
+  color: #fff;
+  font-family: Muli;
+  height: 30px;
+  border-radius: 2px;
+  border: 1p solid black;
+}
+
+input.button:hover {
+  background: #fff;
+  color: #09c;
+}
+
+footer {
+  color: #c9c9c9
+}
+
+img.logo {
+  background-image: url(FFRClogo.jpg);
+  display: block;
+  margin: 0 auto;
+}
+
+.homepic {
+  background-image: url(children.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.aboutpic {
+  background-image: url(familyportrait.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.chpic {
+  background-image: url(infant.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.programspic {
+  background-image: url(programs.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.fnehealthpic {
+  background-image: url(familyportrait.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contactpic {
+  background-image: url(mountains.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.funderspic {
+  background-image: url(family.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.eventspic {
+  background-image: url(events.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.healthpic {
+  background-image: url(health.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+img.health {
+  display: block;
+  margin: 1em auto;
+}
+
+.list {
+  text-align: center;
+  color: #c9c9c9;
+}
+
+img.casino {
+  display: block;
+  margin: 1em auto;
+}
+
+.blackline {
+  background-color: #c9c9c9;
+  height: 5px;
+  margin-top: -27px;
+}
+
+.mapswin {
+  margin: 0 auto;
+}

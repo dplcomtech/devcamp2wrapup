@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Coustard');
+
+
+.logo{
+  text-align:center;
+  margin:0;
+}
+
+body {
+  margin: 0;
+font-family: 'Coustard', serif;
+
+}
+
+h1{
+  text-align:center;
+  margin:5% auto;
+  padding:1% 1%;
+  border-radius: 0 0 0 0;
+  box-shadow: 10px 0px 8px grey;
+  background-color: rgb(92,109,219);
+  font-family: 'Actor', sans-serif;
+  font-weight: 100;
+  font-size:1.75em;
+}
+
+h2 {
+  font-family: 'Coustard', serif;
+  text-align: left;
+}
+
+
+.contact {
+  margin: 10%  5%;
+  font-size:1.25em;
+}
+
+.calender {
+  margin: 6%  30%;
+  font-size: 1;
+}
+
+
+
+nav table {
+  width: 100;
+  margin: auto;
+  border: 0;
+}
+
+
+.dropbtn {
+    background-color: white;
+    color: rgb(92,109,219);
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Coustard', serif;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #e1e1e1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+

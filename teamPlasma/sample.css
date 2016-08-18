@@ -1,0 +1,117 @@
+.logo {
+    color: white;
+}
+body {
+    font-family: 'Roboto', serif;
+    background: url(band.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+     font-size: 50px;
+     margin-left: 50px;
+}
+section h1{
+    margin: 0 auto;
+    text-align: center
+
+}
+h2 {
+    float:right;
+    width: 150px;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+
+section {
+    width: 28%;
+    margin: 3em ;
+    padding: 1%;
+    background: rgba(255,255,255,0.8);
+    position:relative;
+    flex: auto;
+}
+.media{
+    margin: 10px 0 0 0
+}
+button {
+    background-color: cadetblue;
+    color: #fff;
+    width:33%;
+}
+#desc {
+    width: 90%;
+    height:300px;
+    opacity: 0;
+    overflow: hidden;
+}
+.hero{
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+/*#media {
+    width: 400px;
+}*/
+.container {
+    flex-direction: row;
+    display: flex;
+
+}
+#contact, #mediamore, #Aboutmore{width: 90%;
+
+}
+.link{
+    text-decoration:underline;
+}
+
+
+@media screen and (max-width : 800px) {
+    .container {
+    flex-direction: column;
+    display: flex;
+
+    }
+    section {
+    width: 90%;}
+    video {
+  max-width: 90%;
+    }
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 60%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 15px;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+background-color: #fff;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0 0 25px 5px #999;
+color: #111;
+display: none;
+min-width: 600px;
+padding: 25px;
+height: 600px;
+}
+.content iframe{
+    width: 500px;
+    height: 500px;
+}
+
