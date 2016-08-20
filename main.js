@@ -5,7 +5,10 @@ $('a[href^="#"]').on('click', function(event) {
         event.preventDefault();
         $('html, body').stop().animate({
             scrollTop: target.offset().top,
-        }, 1500);
+        }, 800);
+        $('html, body').animate({
+            scrollTop: '-=200px',
+        }, 400);
     }
 });
 });
