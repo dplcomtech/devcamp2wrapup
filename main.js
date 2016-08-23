@@ -17,7 +17,6 @@ $('a[href^="#"]').on('click', function(event) {
     var targetId = target.prop('id');
     if( target.length ) {
         event.preventDefault();
-        if()
         if(targetId == 'photos') {
             $('html, body').stop().animate({
             scrollTop: target.offset().top,
