@@ -1,0 +1,55 @@
+p { font-size: 2em;
+}
+
+.big{
+  font-size:2em;
+}
+
+p {font-family:Playfair Display ;}
+p {
+    /*background-color: rgb(128, 225, 255);*/
+    color: rgb(128, 225, 255);
+}
+    
+
+h1,h2,h3,h4,h5 {
+    background-color:#7DCBD4;
+    width: 50%;
+    font-size: 30px;
+}
+    body {
+        background-color:white;
+    }
+    
+.blue{
+  color:black;
+  font-size:2em;
+}
+
+.pic{
+  width:100%;
+  clear:both;
+  height:auto;
+  overflow:hidden;
+}
+
+.toppic{
+  float:right;
+  height:270px;
+  width:50%;
+}
+
+.logo{
+  float:left;
+  
+  height:270px;
+  width:50%;
+}
+
+#content{
+  width:100%;
+  float:left;
+    clear:both;
+  height:auto;
+  overflow:hidden;
+}

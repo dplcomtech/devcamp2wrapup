@@ -1,0 +1,48 @@
+.nav_wrapper{
+  text-align:center;
+  height:auto;
+}
+
+.navigation{
+  width:90%;
+  margin-left:auto; margin-right:auto;
+  text-align:left;
+  height:auto;
+}
+.sub_nav{
+  display:none;
+  height:auto;
+  background-color: white;
+  max-width:200px;
+}
+
+.navpWrapper:hover .sub_nav{
+  display:block;
+  height:auto;
+}
+.navp{
+  font-size:20px;
+  height:auto;
+}
+
+.navpWrapper{
+  float:left;
+  margin-right:20px;
+  width:200px;
+}
+
+a, a:visited{
+  color:black;
+  font-weight:600;
+}
+
+.black {
+  color:black;
+  font-size:29px;
+}
+
+html{
+  border-style: solid;
+  border-color: #34949E;
+  border-width: 6em;
+}
