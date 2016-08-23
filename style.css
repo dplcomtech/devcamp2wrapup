@@ -1,5 +1,5 @@
 body {
-  background: url(background2.jpg) no-repeat center center;
+  background: url(background.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,6 +32,7 @@ nav {
 
 nav ul li {
   list-style-type: none;
+    margin-bottom: 0.5em;
 }
 
 nav ul li a {
@@ -61,12 +62,13 @@ header {
   right: 0;
   text-align: right;
   width: 25%;
+  z-index: 3;
 }
 
 header h1 {
   top: 0;
   font-size: 4em;
-  z-index: 3;
+  /*z-index: 3;*/
 }
 
 section {
@@ -93,6 +95,116 @@ section {
     break-inside: avoid;
 }
 
+#slides {
+  display: none;
+  position:relative;
+  z-index: 0;
+}
+
+/* Center the slideshow */
+.container {
+  margin: 0 auto;
+  z-index: 1;
+}
+#slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
 @media (max-width:768px) {
 section {
   margin: 5% 0;
@@ -100,7 +212,7 @@ section {
   border-radius: 0;
     border: 0;
 }
-    
+
     section:first-of-type {
         margin-top: 200px;
     }
@@ -128,14 +240,14 @@ nav {
 }
 nav ul li {
   float: left;
-  width: 33%;
+  width: 25%;
   text-align: center;
 }
 
 h2 {
   text-align: left;
 }
- 
+
 header {
   overflow: auto;
 }
@@ -146,8 +258,16 @@ header {
   column-count: 1;
 }
 
-    .column li {
-        margin-bottom: 0.75em;
+.column li {
+    margin-bottom: 0.75em;
+}
+
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+  .container {
+        width: auto
     }
 }
 
@@ -161,5 +281,8 @@ header {
     h1, h2, h3 {
         font-size: 2em;
     }
-    
+   .container {
+       width: auto
+    }
+
 }
