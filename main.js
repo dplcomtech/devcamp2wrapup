@@ -1,8 +1,8 @@
 $(document).ready(function () {
 $(function() {
   $('#slides').slidesjs({
-      width: 940,
-      height: 528,
+      width: 752,
+      height: 422,
         play: {
           active: true,
           auto: true,
@@ -17,7 +17,7 @@ $('a[href^="#"]').on('click', function(event) {
     var targetId = target.prop('id');
     if( target.length ) {
         event.preventDefault();
-        if(targetId == 'photos') {
+        if($(window).width() > 768 || targetId == 'photos') {
             $('html, body').stop().animate({
             scrollTop: target.offset().top,
             }, 800);
