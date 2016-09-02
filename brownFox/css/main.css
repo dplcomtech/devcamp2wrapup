@@ -1,0 +1,17 @@
+body {
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0) 84px, #3ea377 84px, #3ea377 100px, #ecd078 100px, #ecd078 106px, #295f88 106px, #295f88 120px, #ecd078 121px, #ecd078 127px, #16486f 127px, #16486f 142px, #ecd078 142px, #ecd078 148px, #53777a 148px, #53777a 163px, #ecd078 163px, #ecd078 168px, #3ea377 169px), linear-gradient(135deg, #3ea377 15px, #3ea377, #ecd078 15px, #ecd078 21px, #295f88 21px, #295f88 36px, #ecd078 36px, #ecd078 42px, #16486f 42px, #16486f 57.5px, #ecd078 57px, #ecd078 63px, #53777a 63px, #53777a 78px, #ecd078 78px, #ecd078 84px, rgba(0, 0, 0, 0) 84px, rgba(0, 0, 0, 0) 99px);
+  background-size: 120px 120px;
+}
+textarea{
+  resize:vertical;
+  min-height:5em;
+}
+img {
+max-width:100%;
+}
+.row li a { 
+margin:0;
+display:inline-flex; 
+width: 100%; 
+height: 100%; 
+}

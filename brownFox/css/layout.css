@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+}
+
+.media-wrapper {
+  margin: 16px auto;
+  max-width: 1000px;
+  min-width: 320px;
+}
+
+@media screen and (min-device-width: 735px) {
+ /*(put styles for desktop here)
+  .someExampleClass {
+    (put style rules inside their selector, as usual)
+    (this is just an example, don't actually put the .someExampleClass style in.) :D
+  }*/
+footer p {
+  margin: 0;
+}
