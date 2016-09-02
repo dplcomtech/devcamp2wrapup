@@ -17,10 +17,21 @@ $('a[href^="#"]').on('click', function(event) {
     var targetId = target.prop('id');
     if( target.length ) {
         event.preventDefault();
-        if(targetId == 'photos') {
-            $('html, body').stop().animate({
-            scrollTop: target.offset().top,
-            }, 800);
+        if($(window).width() > 768) {
+            if(targetId == 'photos'){
+              var offset = target.offset().top;
+              $('html, body').stop().animate({
+              scrollTop: offset + 200,
+              }, 800);
+            } else {
+              $('html, body').stop().animate({
+              scrollTop: target.offset().top,
+              }, 800);
+            }
+        } else if(targetId == 'photos'){
+          $('html, body').stop().animate({
+          scrollTop: target.offset().top,
+          }, 800);
         } else {
             $('html, body').stop().animate({
                 scrollTop: target.offset().top,
